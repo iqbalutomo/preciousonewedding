@@ -1,0 +1,60 @@
+.font-google {
+    font-family: 'Oleo Script', cursive;
+}
+
+.precious-textcolor {
+    color: #5B3157 !important;
+}
+
+.precious-bgcolor {
+    background-color: #5B3157 !important;
+}
+
+.gold-text {
+    color: #B28F3F !important;
+}
+
+.gold-bgcolor {
+    background-color: #B28F3F !important;
+}
+
+/*table*/
+th {
+  background: #5B3157;
+  color: #fff;
+  border: none;
+}
+
+tr:hover:not(th) {
+    /*background-color: rgba(91, 49, 87, 1);*/
+}
+
+input[type="button"] {
+    transition: all .3s;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type="button"]:not(.active) {
+    background-color:transparent;
+}
+
+.active {
+    /*background-color: #5B3157;*/
+    color :#fff;
+}
+
+input[type="button"]:hover:not(.active) {
+    background-color: #ddd;
+}
+/*end table*/
+th, td {
+    text-align: center;
+}
+
+.box-info {
+    font-weight: bold;
+}

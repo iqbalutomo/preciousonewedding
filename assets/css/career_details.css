@@ -1,0 +1,65 @@
+.font-google {
+	font-family: 'Oleo Script', cursive;
+}
+
+.precious-textcolor {
+	color: #5B3157 !important;
+}
+
+.precious-bgcolor {
+	background-color: #5B3157 !important;
+}
+
+.gold-text {
+	color: #B28F3F !important;
+}
+
+.gold-bgcolor {
+	background-color: #B28F3F !important;
+}
+
+.client-container {
+  margin: 0 auto;
+  max-width: 1290px;
+  width: 95%;
+}
+
+@media only screen and (min-width: 601px) {
+  .client-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .client-container {
+    width: 70%;
+  }
+}
+
+/*navbar*/
+.sidenav {
+	opacity: 0.9;
+}
+
+.hr-navbar {
+	height: 0.3em;
+	border-radius: 0;
+	border: 0;
+}
+/*end navbar*/
+
+/*content*/
+.container-details {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  padding-top: 40px;
+}
+
+hr {
+  width: 100%;
+  background-color: #5B3157;
+  height: 15px;
+  border: 0;
+}
+/*end content*/

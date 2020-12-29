@@ -1,0 +1,140 @@
+.moment-client {
+    padding-top: 50px;
+}
+/*-FONT-*/
+
+.font-google {
+	font-family: 'Oleo Script', cursive;
+}
+
+/*END FONT*/
+
+
+/*-TEXTCOLOR & BGCOLOR-*/
+
+/*Precious color*/
+.precious-textcolor {
+	color: #5B3157 !important;
+}
+
+.precious-bgcolor {
+	background-color: #5B3157 !important;
+}
+
+/*.precious-semitext {
+	color: #83497B;
+}
+
+.precious-semibgcolor {
+	background-color: #83497B;
+}*/
+
+/*gold color*/
+.gold-text {
+	color: #B28F3F !important;
+}
+
+.gold-bgcolor {
+	background-color: #B28F3F !important;
+}
+
+/*END TEXTCOLOR & BGCOLOR*/
+
+
+/*-NAVBAR-*/
+.sidenav {
+	opacity: 0.9;
+}
+
+.hr-navbar {
+	height: 0.3em;
+	border-radius: 0;
+	border: 0;
+}
+/*END NAVBAR*/
+
+/*header*/
+html,
+body,
+#intro {
+    height: 90%;
+}
+
+#intro {
+	padding-top: 20px;
+    background: url("../../img/andre-hunter-181730-unsplash.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.active{
+    border-bottom: 4px solid #34aeff;
+    color: #34aeff!important;
+    font-weight:bold;
+}
+
+.title-header {
+	padding: 70px;
+}
+/*end header*/
+
+/*content*/
+.clients {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+/*photo grid*/
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+/*End Photo Grid*/
+
+/*introduction*/
+.introduction {
+	padding-top: 40px;
+}
+/*end introduction*/
+
+/*end content

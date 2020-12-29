@@ -1,0 +1,86 @@
+.font-google {
+	font-family: 'Oleo Script', cursive;
+}
+
+.precious-textcolor {
+	color: #5B3157 !important;
+}
+
+.precious-bgcolor {
+	background-color: #5B3157 !important;
+}
+
+.gold-text {
+	color: #B28F3F !important;
+}
+
+.gold-bgcolor {
+	background-color: #B28F3F !important;
+}
+
+.client-container {
+  margin: 0 auto;
+  max-width: 1290px;
+  width: 95%;
+}
+
+#content {
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 601px) {
+  .client-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .client-container {
+    width: 70%;
+  }
+}
+
+/*navbar*/
+.sidenav {
+	opacity: 0.9;
+}
+
+.hr-navbar {
+	height: 0.3em;
+	border-radius: 0;
+	border: 0;
+}
+/*end navbar*/
+
+/*header*/
+html,
+body,
+#intro {
+    height: 90%;
+}
+
+#intro {
+	padding-top: 20px;
+    background: url("../img/andre-hunter-181730-unsplash.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title-header {
+	padding: 70px;
+}
+/*end header*/
+
+/*content*/
+blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #B28F3F;
+}
+
+section#content .jenis_blog, h5 {
+  font-weight: bold;
+}
+/*end content*/

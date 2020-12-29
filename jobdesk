@@ -1,0 +1,101 @@
+Start : 05 Oktober 2018
+Deadline : 31 Oktober 2018 + 2
+Preparation (DONE) :
+    -Setting database, config, dll (done)
+    -Struktur folder (done)
+    -Create database preciousone (done)
+    -Setting halaman from html -> php (done)
+    -view semua halaman :
+     -admin (done)(12 oktober 2018)
+     -client (done) (12 oktober 2018)
+
+-User : (DONE)
+    -table (done)
+    -Add menu (done)
+    -login (done)
+    -insert (done)
+    -read (done)
+    -edit (done) :
+       saat user yang sedang dipakai terupdate, data session juga terupdate (done)
+    -deactivate (done)
+
+-price_list: (DONE)
+    -table (done)
+    -read : (done)
+    -admin (done)
+    -client (done)
+    -edit (done)
+    -deactivate (done)
+
+-Slider : (DONE)
+    -view : (done)
+     admin (done)
+     client-side (Gambar tidak tampil)
+    -tabel (done)
+    -insert : (done)
+     masukin gambar ke folder uploads/Slider (kalo belom ada)(done)
+     masukin nama ke database (done)
+    -delete :
+     hapus gambar di database sama folder(done)
+    -update :
+     update gambar di folder sama di database (kalo gambarnya ganti gambar lama keapus) (done)
+
+-Promo Package : (DONE)
+    -view :
+     admin (done)
+     client-side (done)
+    -tabel (done)
+    -insert :
+     masukin gambar ke folder uploads/Slider (kalo belom ada)(done)
+     masukin nama ke database (done)
+    -delete :
+     hapus gambar di database sama folder (done)
+    -update :
+     update gambar di folder sama di database (kalo gambarnya ganti gambar lama keapus) (done)
+-Client : (Start 07 Oktober 2018) (DONE) (16 Oktober 2018)
+    View :
+     -admin (Done) (09 Oktober 2018)
+     -client side (done)(15 oktober 2018)
+     -client side list (done)(15 oktober 2018)
+     -client side detail (done) (15 oktober 2018)
+    Insert :
+     Client :
+      create folder (done) (09 Oktober 2018)
+      insert cover_image (done) (14 oktober 2018)
+      update gallery (done) (14 oktober 2018)
+      update client (done) (16 oktober 2018)
+
+-Career : (Start 07 Oktober 2018) (DONE) (17 Oktober 2018)
+    -View :
+     -career list (done) (07 oktober 2018)
+     -career detail (Detail karir & spesifikasinya belum dropdown) (07 oktober 2018) (done) (17 oktober 2018)
+     -insert (done) (07 oktober 2018)
+     -update (done) (07 oktober 2018)
+     -delete (done) (07 oktober 2018)
+
+-Vendor (Start 12 Oktober 2018) : (DONE)
+    -View :
+     -Admin (done) (12 Oktober 2018)
+     -Client (done) (12 Oktober 2018)
+    -Insert (done) (12 Oktober 2018)
+    -update (done) (12 Oktober 2018)
+    -Delete (done) (12 Oktober 2018)
+
+-Blog :
+    Admin :
+        view (done) (18 oktober 2018)
+        insert (done) (18 oktober 2018)
+        update (done) (18 oktober 2018)
+        delete (done) (18 oktober 2018)
+    client :
+        list (done) (18 oktober 2018)
+        detail (done) (18 oktober 2018)
+
+
+-Slider : Gambar tidak tampil urut setelah dihapus (done) (14 oktober 2018)
+
+-Promo : (client) Tampilkan nama promo di form (done) (14 oktober 2018)
+
+-Career : Buat 15 form input untuk job qualification (no need) (done) (17 oktober 2018)
+
+-Career : Job Description gak keinput (oke) (17 oktober 2018)
